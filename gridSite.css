@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+}
+
+header h1{
+    grid-column: 1 /span 3 ;
+}
+
+header nav{
+    grid-column: 1 /span 3;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+header nav ul li{
+    margin: 10px;
+}
+
+footer{
+    justify-self: start;
+}

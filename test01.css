@@ -1,0 +1,11 @@
+form{
+    width: 400px;
+    height: 250px;
+    border: black;
+    border-style: solid;          
+}
+legend{
+    text-align: center;
+}
+
+
