@@ -1,0 +1,46 @@
+header{
+    justify-content: flex-start;   
+}
+
+nav ul
+{
+    flex-direction: column;    
+}
+
+#banniere_image
+{
+    display: none;
+}
+
+section
+{
+    display: block;
+    text-align: justify;  
+}
+
+article
+{
+   display: block;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;    
+}
+
+#fleche_bulle
+{
+    display: none;
+}
+
+#photo_zozor
+{
+    text-align: right;
+}
+
+
+
+
+
+
